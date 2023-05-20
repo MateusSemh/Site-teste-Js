@@ -1,0 +1,53 @@
+.menu {
+
+  position: absolute;
+  top: 50%;
+  left: 45%;
+
+  }
+
+.button {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    background-color: rgb(162, 138, 206);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+  }
+
+#txt1 {
+    position: relative;
+    background-color: rgb(241, 207, 10);
+    width: 127px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 5px;
+    top: -160px;
+    left: 55px;
+}
+
+#txt2 {
+    position: relative;
+    top: -70px;
+    left: 130px;
+    z-index: 1;
+
+  }
+
+#yes-button.hidden {
+    display: none;
+  }
+
+  img {
+    position: relative;
+    width: 100px;
+    top: -170px;
+    left: 70px;
+
+  }
+
+
+
